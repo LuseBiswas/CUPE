@@ -1,0 +1,2 @@
+Purple ---> #CD66FE
+Blue -----> #0EE6BF

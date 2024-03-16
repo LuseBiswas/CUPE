@@ -1,0 +1,13 @@
+.Btn{
+    width: max-content;
+    background: #cd66fe;
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-weight: 800;
+    color: black;
+}
+.Btn:hover{
+    background: white;
+    color: #cd66fe;
+    
+}

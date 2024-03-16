@@ -1,0 +1,32 @@
+.NavbarMain{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px dashed black;
+    background: #CD66FE;
+    padding-inline: 200px;
+    padding-block: 8px;
+}
+.NavbarMain a img{
+    height: 85px;
+    width: 85px;
+    object-fit: cover;
+    box-shadow: var(--box-shadow);
+}
+
+.NavbarMain .NavLinks{
+    margin-top: 30px;
+}
+
+.NavbarMain .NavLinks a{
+    color: #fff;
+    font-weight: 80px;
+    margin-inline: 20px;
+    border-radius: 999px;
+    padding: 4px 13px;
+}
+
+.NavbarMain .NavLinks a:hover{
+    background: #fff;
+    color: #CD66FE;
+    
+}
