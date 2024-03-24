@@ -1,0 +1,28 @@
+.CupesMain{
+    padding-inline: 200px;
+    margin-top: 50px;
+}
+
+.CupesMain_Row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+    gap: 20px;
+}
+
+.CupesMain_Row .CupesBox{
+    height: 600px;
+    width: 100%;
+    box-shadow: 5px 5px 15px -2px #000000;
+    overflow: hidden;
+}
+
+.CupesBox img{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.CupesBoxContent{
+    padding: 20px;
+}
