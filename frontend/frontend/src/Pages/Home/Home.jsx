@@ -14,9 +14,9 @@ const Home = () => {
             <h6>Placement Insigths</h6>
             <h5>Get experience of every Interview</h5>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe pariatur molestias repellendus necessitatibus modi nemo eos, eum, accusamus reprehenderit non iste earum vitae repellat tenetur quos! A fuga magni officiis?
+            Navigate college interviews and technical rounds with confidence. With a user-friendly interface and comprehensive features, we provide students with access to a curated list of upcoming company interviews happening on campus. 
             </p>
-            <Button LinkText={'Get Insight'} LinkTo={'/'}/>
+            <Button LinkText={'Get Insight'} LinkTo={'/Experience'}/>
         </div>
         <div>
             <img src={Hero1} alt="" />
