@@ -7,11 +7,13 @@ import cors from "cors";
 
 const app = express();
 //Middelwear
+
 app.use(express.json());
 
+app.use(cors());
 app.use("/cupes", Router);
 //For Cross Origin Resource SHaring
-app.use(cors());
+//app.use(cors());
 
 app.get("/", (req,res) =>{
     console.log(req);

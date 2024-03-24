@@ -11,8 +11,9 @@ const Experience = () => {
   useEffect(()=>{
 
     setLoading(true);
-    axios.get('http://localhost:5555/cupes').then(response =>{
-    setReviews(response.data)
+    axios.get('http://localhost:5555/cupes').then(res =>{
+    setReviews(res.data.data)
+    setLoading(false);
     }).catch((error)=>{
       console.log(error);
       setLoading(false);
@@ -28,7 +29,7 @@ const Experience = () => {
 
             {
               reviews.map((Item)=>(
-                <h6>{Item._id}</h6>
+                <h6>{Item.CompnayTitle}</h6>
               ))
             }
           </div>

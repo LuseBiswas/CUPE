@@ -2,7 +2,7 @@
 import React from 'react';
 import styles from './NavBar.module.css'
 import { Link } from 'react-router-dom';
-import Logo from 'C:/Users/DELL/Desktop/CUPE/frontend/frontend/public/assets/Logo.png';
+import Logo from '/Users/riteshbiswas/Development/Personal/CUPE/frontend/frontend/public/assets/logo2.png';
 
 const NavLink = [
     {
@@ -11,11 +11,11 @@ const NavLink = [
     },
     {
         LinkText:"About",
-        LinkTo:"/",
+        LinkTo:"/About",
     },
     {
         LinkText:"Experience",
-        LinkTo:"/",
+        LinkTo:"/Experience",
     },
 ]
 

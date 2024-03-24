@@ -8,7 +8,7 @@
 }
 .NavbarMain a img{
     height: 85px;
-    width: 85px;
+    width: 200px;
     object-fit: cover;
     box-shadow: var(--box-shadow);
 }
