@@ -10,6 +10,8 @@ Router.post('/', async (req, res) => {
         if (
             !req.body.CompnayTitle ||
             !req.body.Reviewer ||
+            !req.body.CompanyImg_URL ||
+            !req.body.PlacementExp ||
             !req.body.CompnayCTC ||
             !req.body.PlacementYear
 
@@ -20,6 +22,8 @@ Router.post('/', async (req, res) => {
         const NewCUPE = {
             CompnayTitle: req.body.CompnayTitle,
             Reviewer: req.body.Reviewer,
+            CompanyImg_URL: req.body.CompanyImg_URL,
+            PlacementExp: req.body.PlacementExp,
             CompnayCTC: req.body.CompnayCTC,
             PlacementYear: req.body.PlacementYear
         }
@@ -95,10 +99,12 @@ Router.put('/:id', async (req, res) => {
 
     try {
      if (
-            !req.body.CompnayTitle ||
-            !req.body.Reviewer ||
-            !req.body.CompnayCTC ||
-            !req.body.PlacementYear
+        !req.body.CompnayTitle ||
+        !req.body.Reviewer ||
+        !req.body.CompanyImg_UR ||
+        !req.body.PlacementExp ||
+        !req.body.CompnayCTC ||
+        !req.body.PlacementYear
 
         ) {
             return res.status(400).send({ Message: "Sorry All feilds are required" });

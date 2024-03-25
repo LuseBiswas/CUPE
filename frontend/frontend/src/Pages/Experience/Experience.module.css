@@ -24,5 +24,30 @@
 }
 
 .CupesBoxContent{
-    padding: 20px;
+    padding: 25px;
+}
+
+.CupesBoxContent h6{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.CupesBoxContent p{
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    margin-block: 8px;
+}
+
+.CupesBoxContent .Btn{
+    width:max-content;
+    background: #CD66FE;
+    color: black;
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-weight: 800;
 }

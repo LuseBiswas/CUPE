@@ -1,0 +1,23 @@
+.SpinnerParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Spinner{
+    border: 5px solid #CD66FE;
+    border-top-color: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    animation: Spin 0.4s linear infinite;
+}
+
+@keyframes Spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

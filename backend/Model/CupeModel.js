@@ -10,6 +10,14 @@ const CupeSchema = mongoose.Schema({
         type:String,
         required:true,
     },
+    CompanyImg_URL:{
+        type:String,
+        required:true,
+    },
+    PlacementExp:{
+        type:String,
+        required:true,
+    },
     CompnayCTC: {
         type:Number,
         required:true,
