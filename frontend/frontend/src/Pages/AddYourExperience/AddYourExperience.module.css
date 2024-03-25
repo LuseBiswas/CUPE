@@ -1,0 +1,17 @@
+.AddYourExperience_Main{
+    padding-inline: 200px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.AddYourExperience_Row{
+    
+    box-shadow: 10px 7px 19px -3px rgba(0,0,0,0.75);
+    padding: 20px;
+}
+
+.AddYourExperience_Row h6{
+    font-weight: 800;
+    font-size: 30px;
+}

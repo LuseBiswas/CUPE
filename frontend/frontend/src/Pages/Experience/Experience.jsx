@@ -29,6 +29,10 @@ const Experience = () => {
     {
       loading ? (<Spinner/>) : (
         <div className={styles.CupesMain}>
+          
+          <Link to={"/AddYourExperience"} className={styles.AddyourExp}>Add your Experience</Link>
+
+
           <div className={styles.CupesMain_Row}>
 
             {
