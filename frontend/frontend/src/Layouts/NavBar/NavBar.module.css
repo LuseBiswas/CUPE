@@ -7,14 +7,14 @@
     padding-block: 8px;
 }
 .NavbarMain a img{
-    height: 50px;
+    height: 60px;
     width: 100%;
     object-fit: cover;
     box-shadow: var(--box-shadow);
 }
 
 .NavbarMain .NavLinks{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .NavbarMain .NavLinks a{

@@ -2,7 +2,7 @@
 import React from 'react';
 import styles from './NavBar.module.css'
 import { Link } from 'react-router-dom';
-import Logo from '/Users/riteshbiswas/Development/Personal/CUPE/frontend/frontend/public/assets/CUPE.png';
+import Logo from '/Users/riteshbiswas/Development/Personal/CUPE/frontend/frontend/public/assets/CUPEF.png';
 
 const NavLink = [
     {
