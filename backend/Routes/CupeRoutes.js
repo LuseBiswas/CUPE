@@ -8,11 +8,11 @@ Router.post('/', async (req, res) => {
     try {
 
         if (
-            !req.body.CompnayTitle ||
+            !req.body.CompanyTitle ||
             !req.body.Reviewer ||
             !req.body.CompanyImg_URL ||
             !req.body.PlacementExp ||
-            !req.body.CompnayCTC ||
+            !req.body.CompanyCTC ||
             !req.body.PlacementYear
 
         ) {
@@ -20,11 +20,11 @@ Router.post('/', async (req, res) => {
         }
 
         const NewCUPE = {
-            CompnayTitle: req.body.CompnayTitle,
+            CompanyTitle: req.body.CompanyTitle,
             Reviewer: req.body.Reviewer,
             CompanyImg_URL: req.body.CompanyImg_URL,
             PlacementExp: req.body.PlacementExp,
-            CompnayCTC: req.body.CompnayCTC,
+            CompanyCTC: req.body.CompanyCTC,
             PlacementYear: req.body.PlacementYear
         }
 
@@ -99,11 +99,11 @@ Router.put('/:id', async (req, res) => {
 
     try {
      if (
-        !req.body.CompnayTitle ||
+        !req.body.CompanyTitle ||
         !req.body.Reviewer ||
         !req.body.CompanyImg_UR ||
         !req.body.PlacementExp ||
-        !req.body.CompnayCTC ||
+        !req.body.CompanyCTC ||
         !req.body.PlacementYear
 
         ) {

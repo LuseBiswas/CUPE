@@ -3,7 +3,7 @@ import styles from './AddYourExperience.module.css';
 
 import { useSnackbar } from 'notistack';
 import { useNavigate } from 'react-router-dom';
-import axios, { Axios } from 'axios'
+import axios from 'axios';
 
 
 

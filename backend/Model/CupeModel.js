@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const CupeSchema = mongoose.Schema({
 
-    CompnayTitle: {
+    CompanyTitle: {
         type:String,
         required:true,
     },
@@ -18,7 +18,7 @@ const CupeSchema = mongoose.Schema({
         type:String,
         required:true,
     },
-    CompnayCTC: {
+    CompanyCTC: {
         type:Number,
         required:true,
     },
