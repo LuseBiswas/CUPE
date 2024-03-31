@@ -1,17 +1,52 @@
-.AddYourExperience_Main{
+.AddYourExperience_Main {
     padding-inline: 200px;
     margin-top: 70px;
     display: flex;
     justify-content: center;
 }
 
-.AddYourExperience_Row{
-    
-    box-shadow: 10px 7px 19px -3px rgba(0,0,0,0.75);
+.AddYourExperience_MainRow {
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
     padding: 20px;
 }
 
-.AddYourExperience_Row h6{
+.AddYourExperience_MainRow h6 {
     font-weight: 800;
     font-size: 30px;
+    text-align: center;
+}
+
+.AddYourExperience_MainRow input, .AddYourExperience_MainRow textarea {
+    display: block;
+    background: none;
+    width: 800px;
+    border-bottom: 0.2px solid black;
+    padding: 20px;
+    font-weight: 800;
+    color: #EF0000;
+    margin-bottom: 10px;
+}
+
+
+
+.AddYourExperience_MainRow textarea{
+    height: 10rem;
+    resize: none;
+}
+
+.AddYourExperience_MainRow input ::placeholder, .AddYourExperience_MainRow textarea ::placeholder{
+    color: #EF0000;
+
+}
+
+.AddYourExperience_MainRow .btn{
+    width: 100%;
+    background: #EF0000;
+    color: black;
+    font-weight: 800;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 17px;
+    cursor: pointer;
 }

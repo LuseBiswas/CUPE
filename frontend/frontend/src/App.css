@@ -31,3 +31,14 @@ body{
     color: black;
 }
 
+/*For Scroll Bar*/
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: red;
+}
+
+::-webkit-scrollbar-track{
+  background: white;
+}
