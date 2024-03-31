@@ -101,7 +101,7 @@ Router.put('/:id', async (req, res) => {
      if (
         !req.body.CompanyTitle ||
         !req.body.Reviewer ||
-        !req.body.CompanyImg_UR ||
+        !req.body.CompanyImg_URL ||
         !req.body.PlacementExp ||
         !req.body.CompanyCTC ||
         !req.body.PlacementYear

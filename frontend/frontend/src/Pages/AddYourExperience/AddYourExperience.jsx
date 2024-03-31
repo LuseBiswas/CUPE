@@ -34,7 +34,7 @@ const AddYourExperience = () => {
     axios.post('http://localhost:5555/cupes', data).then(() => {
       setLoading(false);
       enqueueSnackbar("New Experience Saved Succesfully ", { variant: "success" })
-      Navigate("/")
+      Navigate("/Experience")
 
     }).catch((error) => {
       setLoading(false);
@@ -58,7 +58,7 @@ const AddYourExperience = () => {
 
           <textarea type="text" placeholder='Placement Experience' value={PlacementExp} onChange={(e) => setPlacementExp(e.target.value)} name='' id='' />
 
-          <input type="text" placeholder='Company CTC' value={CompanyCTC} onChange={(e) => setCompanyCTC(e.target.value)} name='' id='' />
+          <input type="number" placeholder='Company CTC' value={CompanyCTC} onChange={(e) => setCompanyCTC(e.target.value)} name='' id='' />
 
           <input type="number" placeholder='Placement Year' value={PlacementYear} onChange={(e) => setPalcementYear(e.target.value)} name='' id='' />
 

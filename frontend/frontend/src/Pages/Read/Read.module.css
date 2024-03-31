@@ -1,0 +1,71 @@
+.ReadExp{
+    padding-inline: 200px;
+    margin-block: 30px;
+}
+
+.ReadExp_Row{
+    display: flex;
+    gap: 20px;
+}
+
+.ReadExp_Row div{
+    flex: 1;
+}
+
+.ReadExp_Row div img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.ReadExp .ReadExp_BoxContent{
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.ReadExp_BoxContent h6{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.ReadExp_BoxContent h4{
+    font-size: 12px;
+    background: black;
+    color: white;
+    width: max-content;
+    border-radius: 999px;
+    padding: 8px 12px;
+    margin-top: 30px;
+}
+
+.ReadExp_BoxContent h3{
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.ReadExp_BoxContent h5{
+    font-weight: 700;
+    font-size: 13px;
+    border-left: 5px solid #EF0000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: max-content;
+    padding: 10px;
+    margin-block: 10px ;
+}
+
+.ReadExp_BoxContent p{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/* For Icons Styling*/
+
+.Icons{
+    margin-block: 20px;
+}
+
+.Icons a{
+    font-size: 20px;
+    margin-left: 20px;
+}

@@ -1,0 +1,24 @@
+.DeleteMain{
+    text-align: center;
+    margin-block: 70px;
+}
+
+.DeleteMain h6{
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.DeleteMain .btn{
+    width: fit-content;
+    background: black;
+    color: white;
+    padding: 7px 19px;
+    border-radius: 999px;
+    font-weight: 800;
+    font-size: 18px;
+    cursor: pointer;
+}
+.DeleteMain .btn:hover{
+    background: #EF0000;
+    color: white;
+}

@@ -43,7 +43,7 @@ const Experience = () => {
                    <div className={styles.CupesBoxContent}>
                    <h6>{Item.CompnayTitle}</h6>
                    <p>{Item.PlacementExp}</p>
-                   <Link className={styles.Btn} to={"/"}>Reead More</Link>
+                   <Link className={styles.Btn} to={`/Read/${Item._id}`}>Reead More</Link>
 
                    </div>
                 </div>

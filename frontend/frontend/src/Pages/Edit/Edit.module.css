@@ -52,6 +52,6 @@
 }
 
 .AddYourExperience_MainRow .btn:hover{
+    background: #32de84;
     color: white;
-    background: black;
 }
