@@ -1,8 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import styles from './Home.module.css';
-import Hero1 from '/Users/riteshbiswas/Development/Personal/CUPE/frontend/frontend/public/assets/HeroImg/C.png'
-
+import Hero1 from '../../../public/assets/HeroImg/Final.png';
 //For Components
 import Button from '../../Components/Button/Button';
 

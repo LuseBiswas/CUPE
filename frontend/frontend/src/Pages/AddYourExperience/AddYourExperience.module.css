@@ -15,6 +15,7 @@
     font-weight: 800;
     font-size: 30px;
     text-align: center;
+    
 }
 
 .AddYourExperience_MainRow input, .AddYourExperience_MainRow textarea {
@@ -24,7 +25,7 @@
     border-bottom: 0.2px solid black;
     padding: 20px;
     font-weight: 800;
-    color: #EF0000;
+    color: #ff3333;
     margin-bottom: 10px;
 }
 
@@ -36,14 +37,14 @@
 }
 
 .AddYourExperience_MainRow input ::placeholder, .AddYourExperience_MainRow textarea ::placeholder{
-    color: #EF0000;
+    color: #ff3333;
 
 }
 
 .AddYourExperience_MainRow .btn{
     width: 100%;
-    background: #EF0000;
-    color: black;
+    background: #ff3333;
+    color: white;
     font-weight: 800;
     padding: 8px 18px;
     border-radius: 999px;

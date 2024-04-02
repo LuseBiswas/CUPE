@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './About.module.css'
-import hero2 from '/Users/riteshbiswas/Development/Personal/CUPE/frontend/frontend/public/assets/HeroImg/C2.png';
+import hero2 from '../../../public/assets/HeroImg/Final2.png';
 //Importing Components
 import Button from '../../Components/Button/Button';
 

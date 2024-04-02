@@ -6,8 +6,16 @@
 .AddyourExp{
     
     font-weight: 800;
-    color: black;
+    color: white;
     font-size: 30px;
+    background-color: black;
+}
+.AddyourExp:hover{
+    background-color: #32de84;
+    border-radius: 2p solid ;
+    
+    border-color: 5px solid #000000;
+    color: white;
 }
 
 
@@ -55,9 +63,9 @@
 .CupesBoxContent .Btn{
    
     width:max-content;
-    background: #EF0000;
+    background: #ff3333;
     color: white;
-    padding: 6px 16px;
+    padding: 6px 6px;
     border-radius: 999px;
     font-weight: 800;
     
@@ -66,5 +74,5 @@
 
 .CupesBoxContent .Btn:hover{
     background: white;
-    color: #EF0000;
+    color: #ff3333;
 }
