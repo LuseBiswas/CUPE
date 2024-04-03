@@ -127,4 +127,21 @@ Router.put('/:id', async (req, res) => {
     }
 })
 
+//Admin Route for All Users
+
+Router.get('/admin/users', async(req,res)=>{
+    try{
+
+        const user = await Cupe.find({},{CompanyImg_URL: 0, PlacementExp: 0, PlacementYear: 0, CompanyCTC: 0, CompanyTitle: 0, updatedAt: 0, __v: 0});
+        
+        if(!user || user.legth == 0){
+            return res.status(404).json({message: "No user Found"})
+        }
+        return res.status(200).json({user});
+    }catch(error){
+        res.status(500).send({ Message: error.Message })
+        console.log(error);
+    }
+})
+
 export default Router;
