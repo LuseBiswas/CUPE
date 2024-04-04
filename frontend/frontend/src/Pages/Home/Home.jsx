@@ -6,6 +6,7 @@ import Hero1 from '../../../public/assets/HeroImg/Final.png';
 import Button from '../../Components/Button/Button';
 
 const Home = () => {
+  document.title = 'Home - CUPE';
   return (
     <>
     <section className={styles.Home}>

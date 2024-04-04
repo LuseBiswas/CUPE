@@ -23,6 +23,7 @@ const AddYourExperience = () => {
   const Navigate = useNavigate()
 
   const { enqueueSnackbar } = useSnackbar();
+  document.title = 'Add your Experience - CUPE';
 
   const SaveExp = () => {
 

@@ -17,11 +17,13 @@ const Read = () => {
         setLoading(true);
         axios.get(`http://localhost:5555/cupes/${id}`).then((res)=>{
             setExp(res.data)
+            document.title = `${res.data.CompanyTitle} - CUPE`;
             setLoading(false);
         }).catch((error)=>{
             console.log(error);
             setLoading(false);
         })
+        
 
     },[])
   return (

@@ -10,6 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 const About = () => {
+  document.title = 'About - CUPE';
   return (
     <>
     <section className={styles.About}>

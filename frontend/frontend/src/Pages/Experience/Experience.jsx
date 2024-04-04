@@ -8,6 +8,7 @@ import Spinner from '../../Components/Spinner/Spinner';
 
 
 const Experience = () => {
+  document.title = 'Experience - CUPE';
 
   const [reviews, setReviews] = useState([]);
   const [loading, setLoading] = useState(false);
