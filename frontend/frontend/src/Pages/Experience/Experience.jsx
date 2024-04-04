@@ -42,7 +42,7 @@ const Experience = () => {
 
 
           <div className={styles.searchContainer}>
-            <input type="text" placeholder='Search' value={SearchinputValue} autoComplete='off' onChange={(e)=>{setSearchInputValue(e.target.value)}}/>
+            <input type="text" placeholder='Search Company' value={SearchinputValue} autoComplete='off' onChange={(e)=>{setSearchInputValue(e.target.value)}}/>
           </div>
           </div>
 
