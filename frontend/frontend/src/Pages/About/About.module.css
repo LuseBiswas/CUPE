@@ -17,6 +17,9 @@
     width: max-content;
     margin-bottom: 5px;
 }
+.About div h5 span{
+    color: #ff3333;
+}
 .About div h5{
     font-weight: 800;
     font-size: 40px;
@@ -31,4 +34,129 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+hr.solid {
+    margin-top: 30px;
+    border-top: 3px solid rgb(113, 111, 111);
+    width: 50%;
+  }
+
+.Founder{
+    
+    display: flex;
+    gap: 20px;
+    padding-inline: 200px;
+}
+
+.Founder div{
+    flex: 1;
+    margin-top: 50px;
+}
+
+.Founder div h6{
+    font-weight: 800;
+    font-size: 25px;
+    color: #ff3333;
+    border-bottom: 1px solid #ff3333;
+    width: max-content;
+    margin-bottom: 5px;
+    margin-top: 50px;
+
+}
+
+.Founder div p{
+    font-size: 14px;
+    margin-block: 10px;
+    margin-bottom: 10px;
+
+}
+
+.Founder div p span{
+    font-weight: 600;
+    border-bottom: 1px solid #ff3333;
+    width: max-content;
+    margin-bottom: 5px;
+}
+
+.Founder div img{
+    height: 100%;
+    width: 50%;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-left: 120px;
+    
+}
+
+.Founder div .SocialMedia{
+    
+    margin-top: 0px;
+    
+    
+}
+
+.Founder div a  {
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    padding-inline-end: 10px;
+    margin-top: 0px;
+    
+    
+}
+
+.Founder div .SocialMedia .Insta{
+    color: black;
+}
+
+.Founder div .SocialMedia .Github{
+    color: black;
+}
+
+.Founder div .SocialMedia .lninkdein{
+    color: black;
+}
+
+hr.solid2 {
+    margin-top: 30px;
+    border-top: 3px solid rgb(113, 111, 111);
+    width: 50%;
+    margin-left: 50%;
+  }
+
+  .TechStack{
+    
+    display: flex;
+    gap: 20px;
+    padding-inline: 200px;
+}
+
+.TechStack div{
+    flex: 1;
+    margin-top: 50px;
+}
+
+.TechStack div h6{
+    font-weight: 800;
+    font-size: 25px;
+    color: #ff3333;
+    border-bottom: 1px solid #ff3333;
+    width: max-content;
+    margin-bottom: 5px;
+    margin-top: 50px;
+
+}
+
+.TechStack div p{
+    font-size: 14px;
+    margin-block: 10px;
+    margin-bottom: 10px;
+
+}
+
+.TechStack div p span{
+    font-weight: 600;
+    border-bottom: 1px solid #ff3333;
+    width: max-content;
+    margin-bottom: 5px;
 }
