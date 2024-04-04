@@ -11,6 +11,7 @@ const Experience = () => {
 
   const [reviews, setReviews] = useState([]);
   const [loading, setLoading] = useState(false);
+  const [SearchinputValue, setSearchInputValue] = useState("");
 
   useEffect(()=>{
 
@@ -23,20 +24,37 @@ const Experience = () => {
       setLoading(false);
     })
   },[])
+
+  //Filter Experience
+
+  const fillterData = reviews.filter((items)=>{
+    return items.CompanyTitle.toLowerCase().includes(SearchinputValue.toLowerCase());
+  })
   return (
     <>
 
     {
       loading ? (<Spinner/>) : (
+        
         <div className={styles.CupesMain}>
+
+<div className={styles.mainSearchBox}>
+
+
+          <div className={styles.searchContainer}>
+            <input type="text" placeholder='Search' value={SearchinputValue} autoComplete='off' onChange={(e)=>{setSearchInputValue(e.target.value)}}/>
+          </div>
+          </div>
+
           
           <Link to={"/AddYourExperience"} className={styles.AddyourExp}>Add your Experience</Link>
 
 
           <div className={styles.CupesMain_Row}>
+            
 
             {
-              reviews.map((Item)=>(
+              fillterData.map((Item)=>(
                 <div className={styles.CupesBox}>
                    <img src={Item.CompanyImg_URL} alt={Item.CompnayTitle}/>
 

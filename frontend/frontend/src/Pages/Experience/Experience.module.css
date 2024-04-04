@@ -76,3 +76,25 @@
     background: white;
     color: #ff3333;
 }
+
+.searchContainer{
+    width: 100%;
+}
+.mainSearchBox{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mainSearchBox input{
+    width: 100%;
+    height: 50px;
+    font-weight: 800;
+    border-bottom: 0.2px solid black;
+    padding-left: 1rem;
+    margin-bottom: 20px;
+}
+
+.mainSearchBox input::placeholder{
+    color: #ff3333;
+}
