@@ -13,10 +13,10 @@ const Delete = () => {
     const DeleteExp = ()=>{
 
         setLoading(true);
-        axios.delete(`http://localhost:5555/cupes/Delete/${id}`).then(()=>{
+        axios.delete(`http://localhost:5555/cupes/${id}`).then(()=>{
             setLoading(false);
             enqueueSnackbar("Experience Deleted Successfully",{variant:'success'});
-            Navigate("/cupes")
+            Navigate("/")
         }).catch((error)=>{
             console.log(error);
             enqueueSnackbar("Something went wrong",{variant:'error'});
