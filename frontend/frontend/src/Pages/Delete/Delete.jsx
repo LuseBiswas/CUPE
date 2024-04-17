@@ -13,7 +13,7 @@ const Delete = () => {
     const DeleteExp = ()=>{
 
         setLoading(true);
-        axios.delete(`http://localhost:5555/cupes/${id}`).then(()=>{
+        axios.delete(`https://cupe-ritesh-biswas-projects.vercel.app/cupes/${id}`).then(()=>{
             setLoading(false);
             enqueueSnackbar("Experience Deleted Successfully",{variant:'success'});
             Navigate("/")
