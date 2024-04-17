@@ -32,7 +32,7 @@ const AddYourExperience = () => {
     }
 
     setLoading(true);
-    axios.post('http://localhost:5555/cupes', data).then(() => {
+    axios.post('https://cupe-ritesh-biswas-projects.vercel.app/cupes', data).then(() => {
       setLoading(false);
       enqueueSnackbar("New Experience Saved Succesfully ", { variant: "success" })
       Navigate("/Experience")
