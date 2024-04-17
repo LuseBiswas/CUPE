@@ -27,7 +27,7 @@ const Edit = () => {
   useEffect(()=>{
 
     setLoading(true);
-    axios.get(`http://localhost:5555/cupes/${id}`).then((res)=>{
+    axios.get(`https://cupe-ritesh-biswas-projects.vercel.app/${id}`).then((res)=>{
         setCompanyTitle(res.data.CompanyTitle);
         setReviewer(res.data.Reviewer);
         setCompanyImg_URL(res.data.CompanyImg_URL);
@@ -49,7 +49,7 @@ const Edit = () => {
       }
 
       setLoading(true);
-      axios.put(`http://localhost:5555/cupes/${id}`,data).then(()=>{
+      axios.put(`https://cupe-ritesh-biswas-projects.vercel.app/${id}`,data).then(()=>{
         setLoading(false);
       enqueueSnackbar("Update Succesfully ", { variant: "success" })
       Navigate('/Experience')
