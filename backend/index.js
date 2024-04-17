@@ -29,8 +29,8 @@ app.get("/", (req,res) =>{
 
 mongoose.connect(MONGODB_URL,).then(()=>{
     console.log("Connected to DB")
-    app.listen(PORT,()=>{
-        console.log(`Backend start at PORT ${PORT}`)
+    app.listen("https://cupe-ritesh-biswas-projects.vercel.app",()=>{
+        console.log(`Backend start `)
     });
 }).catch((error)=>{
     console.log(error);
