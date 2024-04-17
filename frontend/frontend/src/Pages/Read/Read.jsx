@@ -15,7 +15,7 @@ const Read = () => {
 
     useEffect(()=>{
         setLoading(true);
-        axios.get(`http://localhost:5555/cupes/${id}`).then((res)=>{
+        axios.get(`https://cupe-ritesh-biswas-projects.vercel.app/cupes/${id}`).then((res)=>{
             setExp(res.data)
             document.title = `${res.data.CompanyTitle} - CUPE`;
             setLoading(false);
