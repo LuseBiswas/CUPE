@@ -11,7 +11,13 @@ const app = express();
 
 app.use(express.json());
 
-app.use(cors());
+app.use(cors(
+    {
+        origin : ["https://cupe-meyw-frontend.vercel.app"],
+        methods : ["POST","GET","PUT","DELETE"],
+        credentials : true
+    }
+));
 app.use("/cupes", Router);
 //For Cross Origin Resource SHaring
 //app.use(cors());
