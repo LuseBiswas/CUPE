@@ -17,7 +17,7 @@ const Experience = () => {
   useEffect(()=>{
 
     setLoading(true);
-    axios.get('http://localhost:5555/cupes').then(res =>{
+    axios.get('https://cupe-ritesh-biswas-projects.vercel.app/cupes').then(res =>{
     setReviews(res.data.data)
     setLoading(false);
     }).catch((error)=>{
