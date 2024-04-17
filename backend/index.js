@@ -13,7 +13,7 @@ app.use(express.json());
 
 app.use(cors(
     {
-        origin : ["https://cupe-meyw-frontend.vercel.app"],
+        origin : ["https://cupe-frontend.vercel.app"],
         methods : ["POST","GET","PUT","DELETE"],
         credentials : true
     }
