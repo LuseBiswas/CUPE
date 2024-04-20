@@ -1,14 +1,15 @@
-.About{
+.About {
     display: flex;
     gap: 20px;
     padding-inline: 200px;
 }
 
-.About div{
+.About div {
     flex: 1;
     margin-top: 30px;
 }
-.About div h6{
+
+.About div h6 {
     margin-top: 130px;
     font-weight: 800;
     font-size: 25px;
@@ -17,20 +18,23 @@
     width: max-content;
     margin-bottom: 5px;
 }
-.About div h5 span{
+
+.About div h5 span {
     color: #ff3333;
 }
-.About div h5{
+
+.About div h5 {
     font-weight: 800;
     font-size: 40px;
 }
 
-.About div p{
+.About div p {
     font-size: 14px;
     margin-block: 10px;
     margin-bottom: 40px;
 }
-.About div img{
+
+.About div img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -40,21 +44,21 @@ hr.solid {
     margin-top: 30px;
     border-top: 3px solid rgb(113, 111, 111);
     width: 50%;
-  }
+}
 
-.Founder{
-    
+.Founder {
+
     display: flex;
     gap: 20px;
     padding-inline: 200px;
 }
 
-.Founder div{
+.Founder div {
     flex: 1;
     margin-top: 50px;
 }
 
-.Founder div h6{
+.Founder div h6 {
     font-weight: 800;
     font-size: 25px;
     color: #ff3333;
@@ -65,55 +69,57 @@ hr.solid {
 
 }
 
-.Founder div p{
+.Founder div p {
     font-size: 14px;
     margin-block: 10px;
     margin-bottom: 10px;
 
 }
 
-.Founder div p span{
+.Founder div p span {
     font-weight: 600;
     border-bottom: 1px solid #ff3333;
     width: max-content;
     margin-bottom: 5px;
 }
 
-.Founder div img{
+.Founder div img {
+
+    
     height: 100%;
     width: 50%;
     border-radius: 100%;
     object-fit: cover;
     margin-left: 120px;
-    
+
 }
 
-.Founder div .SocialMedia{
-    
+.Founder div .SocialMedia {
+
     margin-top: 0px;
-    
-    
+
+
 }
 
-.Founder div a  {
+.Founder div a {
     font-size: 1.5rem;
     text-decoration: none;
     display: inline-block;
     padding-inline-end: 10px;
     margin-top: 0px;
-    
-    
+
+
 }
 
-.Founder div .SocialMedia .Insta{
+.Founder div .SocialMedia .Insta {
     color: black;
 }
 
-.Founder div .SocialMedia .Github{
+.Founder div .SocialMedia .Github {
     color: black;
 }
 
-.Founder div .SocialMedia .lninkdein{
+.Founder div .SocialMedia .lninkdein {
     color: black;
 }
 
@@ -122,21 +128,21 @@ hr.solid2 {
     border-top: 3px solid rgb(113, 111, 111);
     width: 50%;
     margin-left: 50%;
-  }
+}
 
-  .TechStack{
-    
+.TechStack {
+
     display: flex;
     gap: 20px;
     padding-inline: 200px;
 }
 
-.TechStack div{
+.TechStack div {
     flex: 1;
     margin-top: 50px;
 }
 
-.TechStack div h6{
+.TechStack div h6 {
     font-weight: 800;
     font-size: 25px;
     color: #ff3333;
@@ -147,16 +153,172 @@ hr.solid2 {
 
 }
 
-.TechStack div p{
+.TechStack div p {
     font-size: 14px;
     margin-block: 10px;
     margin-bottom: 10px;
 
 }
 
-.TechStack div p span{
+.TechStack div p span {
     font-weight: 600;
     border-bottom: 1px solid #ff3333;
     width: max-content;
     margin-bottom: 5px;
+}
+
+@media (max-width:768px) {
+
+    .About {
+        display: flex;
+        gap: 10px;
+        padding-inline: 10px;
+
+    }
+
+
+    .About div {
+        display: inline;
+        
+    }
+
+    .About div h6 {
+        margin-top: 30px;
+        font-weight: 800;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .About div h5 span {
+        color: #ff3333;
+    }
+    
+    .About div h5 {
+        font-weight: 800;
+        font-size: 30px;
+    }
+    
+    .About div p {
+        font-size: 10px;
+        margin-block: 10px;
+        margin-bottom: 40px;
+    }
+
+    /*Founder Section*/
+
+    .Founder {
+
+        display: flex;
+        gap: 10px;
+        padding-inline: 10px;
+        overflow-y: hidden;
+    }
+    
+    .Founder div {
+        flex: 0;
+        margin-top: 10px;
+    }
+    
+    .Founder div h6 {
+        font-weight: 800;
+        font-size: 15px;
+        color: #ff3333;
+        border-bottom: 1px solid #ff3333;
+        width: max-content;
+        margin-bottom: 5px;
+        margin-top: 50px;
+    
+    }
+    
+    .Founder div p {
+        font-size: 10px;
+        margin-block: 10px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .Founder div p span {
+        font-weight: 600;
+        border-bottom: 1px solid #ff3333;
+        width: max-content;
+        margin-bottom: 5px;
+    }
+    
+    .Founder div img {
+        height: 25%;
+        width: auto;
+        border-radius: 10%;
+        object-fit: cover;
+        margin-left: 10px;
+        margin-right: 20px;
+        margin-top: 70px;
+    
+    }
+    
+    .Founder div .SocialMedia {
+    
+        margin-top: 0px;
+    
+    
+    }
+    
+    .Founder div a {
+        font-size: 1rem;
+        text-decoration: none;
+        display: inline-block;
+        padding-inline-end: 10px;
+        margin-top: 0px;
+    }
+
+    hr.solid2 {
+        margin-top: -300px;
+        border-top: 3px solid rgb(113, 111, 111);
+        width: 50%;
+        margin-left: 50%;
+    }
+
+    /* tech Stack*/
+
+    .TechStack {
+
+        display: flex;
+        gap: 20px;
+        padding-inline: 10px;
+    }
+    
+    .TechStack div {
+        flex: 1;
+        margin-top: 10px;
+    }
+    
+    .TechStack div h6 {
+        font-weight: 800;
+        font-size: 15px;
+        color: #ff3333;
+        border-bottom: 1px solid #ff3333;
+        width: max-content;
+        margin-bottom: 5px;
+        margin-top: 50px;
+    
+    }
+    
+    .TechStack div p {
+        font-size: 10px;
+        margin-block: 10px;
+        margin-bottom: 10px;
+    
+    }
+    
+    .TechStack div p span {
+        font-weight: 600;
+        border-bottom: 1px solid #ff3333;
+        width: max-content;
+        margin-bottom: 5px;
+    }
+    
+
+
+    
+    
+
 }

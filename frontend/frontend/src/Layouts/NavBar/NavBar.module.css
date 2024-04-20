@@ -1,4 +1,7 @@
-.NavbarMain{
+.active{
+    background-color: black;
+}
+.NavbarMain {
     display: flex;
     justify-content: space-between;
     border-bottom: 0.5px dashed black;
@@ -6,83 +9,93 @@
     padding-inline: 200px;
     padding-block: 8px;
 }
-.NavbarMain a img{
+
+.NavbarMain a img {
     height: 60px;
     width: auto;
     object-fit: contain;
     box-shadow: var(--box-shadow);
 }
 
-.NavbarMain ul{
+.NavbarMain ul {
     list-style: none;
     margin-top: 20px;
     display: flex;
-  justify-content: center; 
+    justify-content: center;
 }
 
-.NavbarMain ul li a{
+.NavbarMain ul li a {
     color: #fff;
     font-weight: 80px;
     margin-inline: 20px;
     border-radius: 999px;
     padding: 4px 13px;
-    
+
 }
 
-.NavbarMain ul li a:hover{
+.NavbarMain ul li a:hover {
     background: #fff;
     color: #EF0000;
-    
+
 }
 
-.NavbarMain .menue{
+.NavbarMain .menue {
     position: absolute;
-    top: 0.75rem;
-    right: 0.5rem;
+    top: 1.5rem;
+    right: 0.75rem;
     flex-direction: column;
     justify-content: space-between;
     width: 2.25rem;
     height: 2rem;
+    
+
 }
 
-.NavbarMain .menue span{
+.NavbarMain .menue span {
     height: 0.4rem;
     width: 100%;
     background-color: white;
     border-radius: 0.2rem;
 }
-@media (max-width:768px){
 
-    .NavbarMain{
+@media (max-width:768px) {
+
+    .NavbarMain {
         padding-inline: 10px;
         flex-direction: column;
         align-items: start;
-        
-    }
-    .NavbarMain .menue{
-        display: flex;
+
     }
 
-    .NavbarMain ul{
+    .NavbarMain .menue {
+        display: flex;
+
+    }
+
+    .NavbarMain ul {
         display: none;
         flex-direction: column;
         width: 100%;
-        margin-bottom: .25rem;
+        margin-bottom: .25rem;    
+        
     }
+
     .NavbarMain ul li {
         width: 100%;
         text-align: center;
     }
-
-    .NavbarMain ul.open{
-        display: flex;
-    }
-
     
 
+    .NavbarMain ul.open {
+        display: flex;
+        
+    }
 
-   
 
-   
+
+
+
+
+
 
 }
