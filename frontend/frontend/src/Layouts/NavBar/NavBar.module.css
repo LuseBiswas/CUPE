@@ -13,23 +13,76 @@
     box-shadow: var(--box-shadow);
 }
 
-.NavbarMain .NavLinks{
+.NavbarMain ul{
+    list-style: none;
     margin-top: 20px;
     display: flex;
-  flex-wrap: wrap; /* Allow links to wrap */
   justify-content: center; 
 }
 
-.NavbarMain .NavLinks a{
+.NavbarMain ul li a{
     color: #fff;
     font-weight: 80px;
     margin-inline: 20px;
     border-radius: 999px;
     padding: 4px 13px;
+    
 }
 
-.NavbarMain .NavLinks a:hover{
+.NavbarMain ul li a:hover{
     background: #fff;
     color: #EF0000;
     
+}
+
+.NavbarMain .menue{
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+}
+
+.NavbarMain .menue span{
+    height: 0.4rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+@media (max-width:768px){
+
+    .NavbarMain{
+        padding-inline: 10px;
+        flex-direction: column;
+        align-items: start;
+        
+    }
+    .NavbarMain .menue{
+        display: flex;
+    }
+
+    .NavbarMain ul{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: .25rem;
+    }
+    .NavbarMain ul li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .NavbarMain ul.open{
+        display: flex;
+    }
+
+    
+
+
+   
+
+   
+
 }
