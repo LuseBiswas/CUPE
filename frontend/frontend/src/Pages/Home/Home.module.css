@@ -37,6 +37,34 @@ flex: 1;
     margin-bottom: 20px;
 }
 
+ .Features{
+  display: flex;
+    gap: 20px;
+    padding-inline: 200px;
+    flex-direction: column;
+}
+
+.Features h6{
+  margin-top: 100px;
+  font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #ff3333;
+    border-bottom: 1px solid #ff3333;
+    width: max-content;
+
+}
+
+.Features div .imageWrapper{
+  width: 300rem;
+}
+
+.Features div .imageWrapper img{
+  width: 10%;
+  gap: 10px;
+
+}
+
 @media screen and (max-width: 768px) {
     .Home {
       flex-direction: column;
@@ -58,5 +86,21 @@ flex: 1;
   
     .Home div h5 {
       font-size: 30px; /* Adjust font size for smaller screens */
+    }
+
+
+
+    .Features{
+      gap: 0;
+      padding-inline: 20px;
+    }
+
+
+    .Features h6{
+      font-size: 20px;
+    }
+
+    .Features div .imageWrapper{
+      width: 100rem;
     }
   }
