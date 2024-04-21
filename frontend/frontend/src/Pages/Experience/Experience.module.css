@@ -34,9 +34,9 @@
 }
 
 .CupesBox img{
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
+    height: 100%; /* Use 100% height to fill the container */
+    width: 100%; /* Use 100% width to fill the container */
+    object-fit: contain; /* Ensu*/
 
 }
 
