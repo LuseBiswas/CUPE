@@ -98,3 +98,14 @@
 .mainSearchBox input::placeholder{
     color: #ff3333;
 }
+
+@media (max-width: 768px) {
+    .CupesMain {
+      padding-inline: 20px; /* Adjust padding for smaller screens */
+    }
+    .CupesMain_Row {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust grid layout for smaller screens */
+    }
+    /* Add more styles for smaller screens as needed */
+  }
+  
