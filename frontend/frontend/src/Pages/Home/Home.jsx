@@ -32,7 +32,7 @@ const Home = () => {
     <div className={styles.Features}>
           <h6>Upcoming Features</h6>
           <div>
-            <Marquee loop={20} speed={120} autoFill={true}>
+            <Marquee delay={2} loop={20} speed={120} autoFill={true}>
               <div className={styles.imageWrapper}>
                 <img src={img1} alt="" />
                 <img src={img2} alt="" />
