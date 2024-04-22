@@ -55,3 +55,19 @@
     background: #32de84;
     color: white;
 }
+
+
+@media (max-width: 768px) {
+    .AddYourExperience_Main {
+        padding-inline: 20px; /* Adjust as needed */
+    }
+    
+    .AddYourExperience_MainRow {
+        width: 100%;
+    }
+    
+    .AddYourExperience_MainRow input,
+    .AddYourExperience_MainRow textarea {
+        width: 100%;
+    }
+}
