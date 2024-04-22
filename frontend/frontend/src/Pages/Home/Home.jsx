@@ -9,6 +9,7 @@ import img3 from '../../../public/assets/UpComingFeatures/Image3.png';
 import img4 from '../../../public/assets/UpComingFeatures/Image4.png';
 import img5 from '../../../public/assets/UpComingFeatures/Image5.png';
 import Hero1 from '../../../public/assets/HeroImg/Final.png';
+import Beta from '../../../public/assets/Beta/Beta1.png';
 //For Components
 import Button from '../../Components/Button/Button';
 
@@ -29,6 +30,12 @@ const Home = () => {
             <img src={Hero1} alt="" />
         </div>
     </section>
+    <div className={styles.BetaSection}>
+      <div>
+      <img src={Beta} alt="" />
+      </div>
+    
+    </div>
     <div className={styles.Features}>
           <h6>Upcoming Features</h6>
           <div>
