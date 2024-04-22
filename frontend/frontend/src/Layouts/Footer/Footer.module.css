@@ -1,0 +1,139 @@
+.sectionPadding{
+    padding: 4rem 4rem;
+}
+
+.footer{
+    background-color: black;
+}
+
+.sbFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.sbFooterLinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.sbFooterLinksDiv{
+    width: 150px;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: white;
+}
+
+a{
+    color: #ff3333;
+    text-decoration: none;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+}
+
+.socialmedia img{
+    width: 80%;
+}
+
+.sbFooterLinksDiv h4{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 0.9rem;
+}
+
+.sbFooterLinksDiv p{
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.sbFooterBelow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.7rem;
+}
+
+.sbFooterBelowLinks{
+    display: flex;
+    flex-direction: row;
+}
+
+.sbFooterBelowLinks p{
+    font-size: 13px;
+    line-height: 15px;
+    margin-left: 2rem;
+    color: #ff3333;
+    font-weight: 600;
+}
+
+hr{
+    color: white;
+    width: 100%;
+}
+
+.sbFooterCopyright{
+    font-size: 13px;
+    line-height: 15px;
+    color: #ff3333;
+    font-weight: 600;
+}
+
+@media (max-width: 850px){
+    .sbFooter-heading h1{
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 550px){
+    .sbFooter-heading h1{
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .sbFooterLinks div{
+        margin: 1rem 0;
+    }
+
+    .sbFooter-btn p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .sbFooterBelow{
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .sbFooterBelowLinks{
+        flex-direction: column;
+
+    }
+
+    .sbFooterBelowLinks p{
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 400px){
+
+    .sbFooter-heading h1{
+        font-size: 27px;
+        line-height: 38px;
+    }
+}
+
+
