@@ -6,13 +6,23 @@
 .AddyourExp{
     
     font-weight: 800;
+    width: 350px;
     color: white;
     font-size: 30px;
+    text-align: center;
+    background-color: black;
+    border-radius: 2rem;
+}
+.AddyourExp .AddyourExp2{
+    color: white;
+    border-radius: 2rem;
+}
+.AddyourExp .AddyourExp2:hover{
     background-color: black;
 }
 .AddyourExp:hover{
-    background-color: #32de84;
-    border-radius: 2p solid ;
+    background-color: #ff3333;
+    border-radius: 2px solid ;
     
     border-color: 5px solid #000000;
     color: white;
