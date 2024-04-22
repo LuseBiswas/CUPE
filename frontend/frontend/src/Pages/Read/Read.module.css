@@ -69,3 +69,47 @@
     font-size: 20px;
     margin-left: 20px;
 }
+
+@media (max-width: 768px) {
+    .ReadExp {
+        padding-inline: 10px; /* Further reduced padding for smaller screens */
+    }
+
+    .ReadExp_Row div img {
+        height: auto; /* Let the image adjust its height automatically */
+        width: 100%;
+        margin-top: 20px; /* Reduced margin for smaller screens */
+    }
+
+    .ReadExp_BoxContent h6 {
+        font-size: 20px; /* Further reduced font size for smaller screens */
+    }
+
+    .ReadExp_BoxContent h4 {
+        font-size: 8px; /* Further reduced font size for smaller screens */
+        margin-top: 15px; /* Further reduced margin for smaller screens */
+    }
+
+    .ReadExp_BoxContent h3 {
+        font-size: 8px; /* Further reduced font size for smaller screens */
+    }
+
+    .ReadExp_BoxContent h5 {
+        font-size: 10px; /* Further reduced font size for smaller screens */
+        margin-block: 5px; /* Further reduced margin for smaller screens */
+    }
+
+    .ReadExp_BoxContent p {
+        font-size: 10px; /* Further reduced font size for smaller screens */
+        line-height: 18px; /* Further reduced line height for smaller screens */
+    }
+
+    .Icons {
+        margin-block: 5px; /* Further reduced margin for smaller screens */
+    }
+
+    .Icons a {
+        font-size: 14px; /* Further reduced font size for smaller screens */
+        margin-left: 5px; /* Further reduced margin for smaller screens */
+    }
+}
