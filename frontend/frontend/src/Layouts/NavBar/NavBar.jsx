@@ -18,6 +18,10 @@ const NavLink = [
         LinkText: "Experience",
         LinkTo: "/Experience",
     },
+    {
+        LinkText: "Your Notes",
+        LinkTo: "/Notes",
+    },
 ]
 
 
