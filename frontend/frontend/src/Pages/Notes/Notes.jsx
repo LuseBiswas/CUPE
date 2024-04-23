@@ -76,7 +76,17 @@ const Notes = () => {
 
   return (
     <>
-    <div className={styles.notes}>
+    <div className={styles.MainNotes}>
+        <div className={styles.heading}>
+            <h6>Notes</h6>
+            <h5>Write your future here</h5>
+            <p>
+            Save your Ideas, Queries and Future here. As our seniors says whenever you got any idead just write anywhere, adn this is that place. Go for it. 
+            </p>
+
+        </div>
+
+        <div className={styles.notes}>
         {
             notes.map((note)=>(
                 editToggle === note.id ? 
@@ -91,6 +101,8 @@ const Notes = () => {
             editToggle === null ? <CreateNotes inputText={inputText} setInputText={setInputText} saveHandler={saveHandler}/>
             : <></>
         }
+        </div>
+        
       
     </div>
     </>

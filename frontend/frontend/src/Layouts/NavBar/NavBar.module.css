@@ -84,6 +84,14 @@
         width: 100%;
         text-align: center;
     }
+    .NavbarMain ul li a {
+        color: #fff;
+        font-weight: 80px;
+        margin-inline: 2px;
+        border-radius: 999px;
+        padding: 4px 11px;
+    
+    }
     
 
     .NavbarMain ul.open {
