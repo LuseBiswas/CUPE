@@ -5,3 +5,17 @@
     grid-gap: 1rem;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
 }
+
+@media (max-width: 768px) {
+    .notes {
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
+        margin: 0 20px; /* Add margin from left and right */
+    }
+}
+
+@media (max-width: 480px) {
+    .notes {
+        grid-template-columns: minmax(150px, 1fr);
+        margin: 0 10px; /* Adjust margin for smaller screens */
+    }
+}
