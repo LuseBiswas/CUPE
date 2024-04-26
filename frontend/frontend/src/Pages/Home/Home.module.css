@@ -8,7 +8,7 @@
   font-weight: 500;
   color: black;
 }
-.otherLinks .Links{
+ .otherLinks .Links{
   color: black;
   font-weight: 800;
 }
@@ -109,7 +109,8 @@ flex: 1;
 @media screen and (max-width: 768px) {
     .Home {
       flex-direction: column;
-      padding-inline: 20px; /* Adjust padding for smaller screens */
+      margin-left: 30px;
+      padding-inline: 10px; /* Adjust padding for smaller screens */
     }
   
     .Home div {
@@ -158,5 +159,10 @@ flex: 1;
     .BetaSection div img{
       margin-top: 0;
       width: 100%;
+    }
+
+    .otherLinks{
+      width: 50px;
+      font-size: 15px;
     }
   }

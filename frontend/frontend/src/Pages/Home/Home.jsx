@@ -26,10 +26,12 @@ const Home = () => {
   ]*/
   return (
     <>
-      <div className={styles.otherLinks}>
+    <div className={styles.otherLinks}>
         <Link className={styles.Links} to="/DSAQ">PYQ</Link>
       </div>
+
       <section className={styles.Home}>
+    
         <div>
           <h6>Placement Insigths</h6>
           <h5>Get experience of every Interview</h5>
