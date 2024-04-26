@@ -26,6 +26,37 @@
     background-color: black;
     color: #fff;
   }
+
+  .pagination {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .pageItem {
+    margin: 0 5px;
+  }
+  
+  .pageLink {
+    text-decoration: none;
+    padding: 8px 16px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pageLink:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .active .pageLink {
+    background-color: #007bff;
+    color: #fff;
+  }
  
   
   @media only screen and (max-width: 1024px) {
@@ -41,6 +72,14 @@
     }
     th{
         font-size: 15px;
+    }
+
+    .pagination {
+      flex-wrap: wrap;
+    }
+    
+    .pageItem {
+      margin: 5px 0;
     }
   }
   

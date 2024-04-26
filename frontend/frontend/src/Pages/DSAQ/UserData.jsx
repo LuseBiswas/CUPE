@@ -1,9 +1,9 @@
 import React from 'react';
 import { SiLeetcode } from "react-icons/si"; // Import the external link icon from react-icons library
 
-const UserData = ({ user }) => {
+const UserData = ({ records }) => {
   // Skip the first element which contains header information
-  const userDataToDisplay = user.slice(1);
+  const userDataToDisplay = records.slice(1);
 
   return (
     <>
