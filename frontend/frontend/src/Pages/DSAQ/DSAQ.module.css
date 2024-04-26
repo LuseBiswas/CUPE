@@ -1,0 +1,46 @@
+.container {
+    margin: 5rem auto;
+    max-width: 80rem;
+  }
+  
+  .table {
+    border-radius: 1rem;
+    border: 1rem hidden black;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px black;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ff3333;
+    padding: 0.5rem;
+    line-height: 1.7;
+    text-align: center;
+  }
+  td{
+    font-weight: 600;
+  }
+  
+  th {
+    background-color: black;
+    color: #fff;
+  }
+ 
+  
+  @media only screen and (max-width: 1024px) {
+    .container {
+      margin: 2rem .8rem;
+    }
+    
+    .table {
+        border-radius: 0.5rem;
+      margin: 0;
+      max-width: 100%;
+      overflow-x: auto;
+    }
+    th{
+        font-size: 15px;
+    }
+  }
+  

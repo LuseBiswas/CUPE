@@ -1,3 +1,27 @@
+.otherLinks{
+  box-shadow: #ff3333 0px 1px 1px, #ff3333 0px 0px 0px 1.5px;
+  width: 100px;
+  float: right;
+  border-radius: 0px 0px 0px 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.otherLinks .Links{
+  color: black;
+  font-weight: 800;
+}
+
+.otherLinks:hover{
+  background-color: black;
+  cursor: pointer;
+
+}
+.otherLinks .Links:hover{
+  color: white;
+  cursor: pointer;
+}
 .Home{
     display: flex;
     gap: 20px;

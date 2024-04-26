@@ -17,6 +17,7 @@ import Read from './Pages/Read/Read';
 import Edit from './Pages/Edit/Edit';
 import Delete from './Pages/Delete/Delete';
 import Notes from './Pages/Notes/Notes';
+import DSAQ from './Pages/DSAQ/DSAQ';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route path='/Edit/:id' element={[<NavBar/>, <Edit/>,<Footer/>]}></Route>
       <Route path='/Delete/:id' element={[<NavBar/>, <Delete/>,<Footer/>]}></Route>
       <Route path='/Notes' element={[<NavBar/>,<Notes/>,<Footer/>]}></Route>
+      <Route path='/DSAQ' element={[<NavBar/>,<DSAQ/>,<Footer/>]}></Route>
     </Routes>
     </>
   )
