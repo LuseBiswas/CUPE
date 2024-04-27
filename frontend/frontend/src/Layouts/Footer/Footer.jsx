@@ -19,6 +19,8 @@ const Footer = () => {
                     <Link to={'/'}>Home</Link>
                     <Link to={'/About'}>About</Link>
                     <Link to={'/Experience'}>Experience</Link>
+                    <Link to={'/Notes'}>Notes</Link>
+                    <Link to={'/DSAQ'}>PYQs</Link>
                 </div>
                 
                 <div className={styles.sbFooterLinksDiv}>
