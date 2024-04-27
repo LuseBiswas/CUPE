@@ -6,6 +6,10 @@ import Spinner from '../../Components/Spinner/Spinner';
 const API = 'https://script.googleusercontent.com/macros/echo?user_content_key=zyeKjPYTwoTu1Fh3sx-RWwUlRPLZuN1bMxt8iVK6xcoeN-Zvfs3lJeAiRBrjUbS6Gl6apKX1LdIvparzH_lDaiLqOH8FKcsZm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnJOQN3r6jgAjPdAN5-1mVY-s9UgEhLu-3jgU4PVKCvbe91ptJRzkkjXFPciKTFQ7_4HaJPK-1TQvAnw6UNumM8_c4vpB667xzNz9Jw9Md8uu&lib=Mn_2FE48I3X2or3U2pI1G6YoKZOw8fVRD';
 
 const DSAQ = () => {
+  //For Search functionality
+  const [search, setSearch] = useState('');
+  console.log(search);
+
   const [user, setUser] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
@@ -50,6 +54,12 @@ const DSAQ = () => {
 
   return (
     <div className={styles.container}>
+
+      <div className={styles.mainSearchBox}>
+        <div className={styles.searchContainer}>
+          <input type="text" placeholder='Search Company' onChange={(e)=> setSearch(e.target.value)}/>
+        </div>
+      </div>
       {loading ? (
         <Spinner />
       ) : (
@@ -64,7 +74,7 @@ const DSAQ = () => {
               </tr>
             </thead>
             <tbody>
-              <UserData records={currentRecords} />
+              <UserData records={currentRecords} search={search} />
             </tbody>
           </table>
           <nav>

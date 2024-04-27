@@ -1,13 +1,15 @@
 import React from 'react';
 import { SiLeetcode } from "react-icons/si"; // Import the external link icon from react-icons library
 
-const UserData = ({ records }) => {
+const UserData = ({ records, search }) => {
   // Skip the first element which contains header information
   const userDataToDisplay = records.slice(1);
 
   return (
     <>
-      {userDataToDisplay.map((userData) => (
+      {userDataToDisplay.filter((userData)=>{
+        return search.toLowerCase() === '' ? userData : userData.Comapny.toLowerCase().includes(search.toLowerCase())
+      }).map((userData) => (
         <tr key={userData.SrNo}>
           <td>{userData.SrNo}</td>
           <td>{userData.ProblemName}</td>
