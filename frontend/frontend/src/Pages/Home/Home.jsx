@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <>
     <div className={styles.otherLinks}>
-        <Link className={styles.Links} to="/DSAQ">PYQ</Link>
+        <Link className={styles.Links} to="/DSAQ">PYQs</Link>
       </div>
 
       <section className={styles.Home}>
