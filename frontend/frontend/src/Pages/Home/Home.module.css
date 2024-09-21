@@ -113,7 +113,7 @@
 /* Beta Section */
 .beta {
   padding: 80px 0;
-  background-color: var(--background-light);
+  background-color: var(--white);
   border-radius: 20px;
   margin: 50px 0;
 }
